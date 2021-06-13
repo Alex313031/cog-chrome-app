@@ -2,7 +2,7 @@
 
 Cog - System Info Viewer is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that showcases [`chrome.system.*`](https://developer.chrome.com/extensions/declare_permissions#system.cpu) APIs. It is available now on the [Chrome Web Store](https://chrome.google.com/webstore/detail/difcjdggkffcfgcfconafogflmmaadco) and [Google Play Store](https://play.google.com/store/apps/details?id=com.github.beaufortfrancois.cog_chrome_app).
 
-<img src="https://raw.githubusercontent.com/beaufortfrancois/cog-chrome-app/master/hero.png">
+<img src="https://raw.githubusercontent.com/alex313031/cog-chrome-app/master/hero.png">
 
 ## Getting the code
 
