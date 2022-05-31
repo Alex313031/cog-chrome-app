@@ -1,27 +1,40 @@
-# Cog - System Info Viewer App
+# <img width="48px" src="https://raw.githubusercontent.com/Alex313031/cog-chromium/master/src/assets/icon_512.png"> COG - System Info Viewer App for Chromium
 
-Cog - System Info Viewer is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that showcases [`chrome.system.*`](https://developer.chrome.com/extensions/declare_permissions#system.cpu) APIs. It is available now on the [Chrome Web Store](https://chrome.google.com/webstore/detail/difcjdggkffcfgcfconafogflmmaadco) and [Google Play Store](https://play.google.com/store/apps/details?id=com.github.beaufortfrancois.cog_chrome_app).
+COG is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that showcases the [`chrome.system.*`](https://developer.chrome.com/extensions/declare_permissions#system.cpu) APIs. It is a fork of https://github.com/beaufortfrancois/cog-chrome-app. See Patches/Changes below.
 
 <img src="https://raw.githubusercontent.com/alex313031/cog-chrome-app/master/hero.png">
 
-## Getting the code
+## Patches & Changes <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/bulb_light.svg#gh-dark-mode-only"> <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/bulb_dark.svg#gh-light-mode-only">
+ - "Chrome" changed to "Chromium".
+ - Icon changed to new gear logo + more icon sizes.
+ - Manifest updated to V3 with some extra things like offline enabled = true and minimum chromium version = 88.
+ - Colours updated.
+ - Spacing modified.
+ - Themed Scrollbar added.
+ - Memory Section now shows Used, Free, and Total.
+ - Better Section descriptions.
+ - Warnings if an API is not available.
 
-You can download the whole source code [as one archive](https://github.com/beaufortfrancois/cog-chrome-app/archive/master.zip), or get it from the repository using git:
+## Installation <img src="https://github.com/Alex313031/Thorium/blob/main/logos/STAGING/thorium_bubbles.svg" width="36px">
 
-    git clone git://github.com/beaufortfrancois/cog-chrome-app.git
+* Check `Developer Mode` in `chrome://extensions`
+* Drag and Drop the COG.crx file into the windows.
+* Run it.
 
-## Running the development version
+## Running the development version <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/build_light.svg#gh-dark-mode-only"> <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/build_dark.svg#gh-light-mode-only">
 
-### <img width="32px" height="32px" src="https://ssl.gstatic.com/images/icons/product/chrome-64.png"> Desktop
+### <img width="32px" height="32px" src="https://raw.githubusercontent.com/Alex313031/Thorium/main/logos/NEW/chromium.svg"> Desktop
 
 * Check `Developer Mode` in `chrome://extensions`
 * Click "Load unpacked extension..." in `chrome://extensions` and select the `src` folder in the `cog-chrome-app` repository.
 * Run it.
 
-### <img width="32px" height="32px" src="https://ssl.gstatic.com/images/icons/product/android-64.png"> Android
+### Test mobile version
+
+### <img width="36px" height="36px" src="https://raw.githubusercontent.com/Alex313031/Thorium/main/logos/STAGING/Android_Robot.svg"> Android
 
 * Install the Chrome Apps on mobile [requirements](https://github.com/MobileChromeApps/mobile-chrome-apps/blob/master/docs/Installation.md).
-* Create your project with `cca create cog-mobile-chrome-app --link-to=path/to/cog-chrome-app/src/manifest.json`
+* Create your project with `cca create cog-mobile-chrome-app --link-to=path/to/cog-chromium/src/manifest.json`
 * Plug in your Android device. 
 * Go to Settings->Developer Options and enable `USB debugging`.
 * Run it with `cca run android`
