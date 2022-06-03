@@ -2,7 +2,7 @@
 
 COG is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that showcases the [`chrome.system.*`](https://developer.chrome.com/extensions/declare_permissions#system.cpu) APIs. It is a fork of https://github.com/beaufortfrancois/cog-chrome-app. See Patches/Changes below.
 
-![ScreenShot](https://raw.githubusercontent.com/alex313031/cog-chrome-app/master/scredenshot.png)
+![ScreenShot](https://raw.githubusercontent.com/alex313031/cog-chrome-app/master/screenshot.png)
 
 ## Patches & Changes <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/bulb_light.svg#gh-dark-mode-only"> <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/bulb_dark.svg#gh-light-mode-only">
  - "Chrome" changed to "Chromium".
