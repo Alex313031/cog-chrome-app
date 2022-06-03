@@ -19,7 +19,7 @@ COG is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that 
 ## Installation <img src="https://github.com/Alex313031/Thorium/blob/main/logos/STAGING/thorium_bubbles.svg" width="36px">
 
 * Check `Developer Mode` in `chrome://extensions`
-* Drag and Drop the COG.crx file into the windows.
+* Drag and Drop the COG.crx file into the window.
 * Run it.
 
 ## Running the development version <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/build_light.svg#gh-dark-mode-only"> <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/build_dark.svg#gh-light-mode-only">
