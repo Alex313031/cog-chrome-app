@@ -1,4 +1,4 @@
-# <img width="48px" src="https://raw.githubusercontent.com/Alex313031/cog-chromium/master/src/assets/icon_512.png"> COG - System Info Viewer App for Chromium
+# <img width="48px" src="https://raw.githubusercontent.com/Alex313031/cog-chromium/master/src/icons/icon_512.png"> COG - System Info Viewer App for Chromium
 
 COG is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that showcases the [`chrome.system.*`](https://developer.chrome.com/extensions/declare_permissions#system.cpu) APIs. It is a fork of https://github.com/beaufortfrancois/cog-chrome-app. See Patches/Changes below.
 
