@@ -7,12 +7,13 @@ COG is a simple [Chrome App](https://developer.chrome.com/apps/about_apps) that 
 ## Patches & Changes <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/bulb_light.svg#gh-dark-mode-only"> <img src="https://github.com/Alex313031/Thorium/blob/main/logos/NEW/bulb_dark.svg#gh-light-mode-only">
  - "Chrome" changed to "Chromium".
  - Icon changed to new gear logo + more icon sizes.
+ - Gear logo is now inside the app (click it to spin it!)
  - Manifest updated to V3 with some extra things like offline enabled = true and minimum chromium version = 88.
- - Colours updated.
+ - Colours updated/changed.
  - Spacing modified.
  - Themed Scrollbar added.
- - Memory Section now shows Used, Free, and Total.
- - Better Section descriptions.
+ - Memory section now shows Used, Free, and Total.
+ - Better section descriptions.
  - Warnings if an API is not available.
 
 ## Installation <img src="https://github.com/Alex313031/Thorium/blob/main/logos/STAGING/thorium_bubbles.svg" width="36px">
