@@ -1,0 +1,46 @@
+// Copyright (c) 2018 François Beaufort and (c) 2022 Alex313031. //
+
+{
+  "manifest_version": 3,
+  "name": "COG - System Info Viewer",
+  "short_name": "COG",
+  "author": "Alex313031",
+  "description": "__MSG_appDescription__",
+  "version": "0.15.5",
+  "version_name": "0.15.5",
+  "offline_enabled": true,
+  "minimum_chrome_version": "88",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon_16.png",
+    "24": "icons/icon_24.png",
+    "32": "icons/icon_32.png",
+    "36": "icons/icon_36.png",
+    "48": "icons/icon_48.png",
+    "64": "icons/icon_64.png",
+    "78": "icons/icon_78.png",
+    "96": "icons/icon_96.png",
+    "128": "icons/icon_128.png",
+    "144": "icons/icon_144.png",
+    "192": "icons/icon_192.png",
+    "256": "icons/icon_256.png",
+    "512": "icons/icon_512.png",
+    "1024": "icons/icon_1024.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "permissions": [
+    "storage",
+    "system.cpu",
+    "system.display",
+    "system.memory",
+    "system.network",
+    "system.storage",
+    "clipboardRead",
+    "clipboardWrite",
+    "notifications"
+  ]
+}

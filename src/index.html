@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" width="initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0, user-scalable=yes" height="initial-scale=1.0, maximum-scale=10.0, minimum-scale=1.0, user-scalable=yes">
+  <link rel="preload" href="fonts/RobotoCondensed.woff" as="font" type="font/woff" crossorigin>
+  <title>COG</title>
+  <link rel="author" href="README.txt">
+  <link rel="stylesheet" href="css/cog.css">
+  <link rel="stylesheet" href="css/scroll.css">
+</head>
+
+<body>
+  <div class="topbar section2"><div class="logo"><img class="spin" src="assets/COG_Logo.png" width="32" height="32" title="COG Logo (Click Me!)"></div><div class="title" title="Version 0.15.5">Cog</div></div>
+  <div class="wrapper">
+    <div id="info" class="section">
+      <div class="box2">
+        <label for="operating-system" title="O.S."></label>
+        <div id="operating-system" class="info"></div>
+        <label for="platform" title="Chromium Host Platform"></label>
+        <div id="platform" class="small2 info"></div>
+      </div>
+      <div class="box">
+        <label for="chromium-version" title="Chromium Version &numero;"></label>
+        <div id="chromium-version" class="small2 info2"></div><div class="cr"><img class="spin small2 info2" src="assets/Chromium.svg" width="36" height="36" title="COG Chromium Logo (Click Me!)"></div>
+      </div>
+    </div>
+    <div id="cpu" class="section">
+      <div class="box">
+        <label for="cpu-name" title="CPU Model"></label>
+        <div id="cpu-name" class="info"></div>
+        <label for="cpu-arch" title="CPU Architecture"></label>
+        <div id="cpu-arch" class="info"></div>
+        <label for="cpu-features" title="CPU ISA Extensions"></label>
+        <div id="cpu-features" class="small2 info"></div>
+      </div>
+      <div class="box">
+        <label for="cpu-usage" title="CPU Usage Histogram"></label>
+        <div id="cpu-usage" class="info"></div>
+        <label for="cpu-temperatures" title="System Temperatures"></label>
+        <div id="cpu-temperatures" class="small info"></div>
+      </div>
+    </div>
+    <div id="storage" class="section hidden">
+      <div id="internal-storage" class="box2">
+        <label for="internal-storage-units" title="Internal Storage Size"></label>
+        <div id="internal-storage-units" class="small info"></div>
+      </div>
+      <div id="external-storage" class="box">
+        <label for="external-storage-units" title="External Storage Size"></label>
+        <div id="external-storage-units" class="small info"></div>
+      </div>
+    </div>
+    <div id="memory" class="section">
+      <div class="box">
+        <label for="memory-capacity" title="RAM Information"></label>
+        <div id="memory-capacity" class="info2"></div>
+      </div>
+      <div class="box">
+        <label for="memory-usage" title="Memory Usage Histogram"></label>
+        <div id="memory-usage" class="info"></div>
+      </div>
+    </div>
+    <div id="network" class="section">
+      <div class="box">
+        <label for="internet-state" title="Network State"></label>
+        <div id="internet-state" class="info"></div>
+      </div>
+      <div class="box">
+        <label for="local-adapters" title="IP/MAC Information"></label>
+        <div id="local-adapters" class="small3 info2"></div>
+      </div>
+    </div>
+    <div id="battery" class="section hidden">
+      <div class="box">
+        <label for="battery-status" title="Charging/Discharging State"></label>
+        <div id="battery-status" class="info"></div>
+        <label for="battery-time" title="Charging Time Information"></label>
+        <div id="battery-time" class="small info"></div>
+      </div>
+      <div class="box">
+        <label for="battery-level" title="Battery Percentage Histogram"></label>
+        <div id="battery-level" class="info">
+          <div class="bar">
+            <span class="bar-section usedbat"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="displays" class="section">
+      <div class="box2">
+        <label for="primary-display" title="Main Monitor"></label>
+        <div id="primary-display" class="info"></div>
+      </div>
+      <div class="box">
+        <label for="other-displays" title="Other Monitors"></label>
+        <div id="other-displays" class="small info"></div>
+      </div>
+    </div>
+    <div id="languages" class="section">
+      <div class="box2">
+        <label for="language" title="Primary Locale"></label>
+        <div id="language" class="info"></div>
+      </div>
+      <div class="box">
+        <label for="accept-languages" title="Other Locales"></label>
+        <div id="accept-languages" class="small info"></div>
+      </div>
+    </div>
+    <div id="plugins" class="section3 hidden">
+      <div class="box2">
+        <label for="plugins-list" title="Chromium Plugins"></label>
+        <div id="plugins-list" class="small info"></div>
+      </div>
+      <div id="copyright">
+      <div class="box2">
+        <label for="copyright-list" title="Attribution"></label>
+        <div id="copyright-list" class="small info2"></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/util.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/background.js"></script>
+  <script defer src="js/jquery-3.6.0.slim.min.js"></script>
+  <script defer src="js/spin.js"></script>
+</body>
+</html>
