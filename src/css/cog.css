@@ -37,13 +37,18 @@ body {
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1.0));
 }
 .cr {
-  padding-top: 6px;
+  padding-top: 7px;
   padding-bottom: 8px;
   float: left;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1.0));
 }
 .spin {
   transition: all .8s;
+}
+.icon {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1.0));
+  float: bottom;
+  padding-bottom: -4px;
 }
 .wrapper {
   max-width: 900px;
@@ -86,6 +91,9 @@ body {
 .box2:last-child {
   padding-bottom: 8px;
 }
+.about:last-child {
+  padding-bottom: 12px;
+}
 .section {
   border-bottom: 1px solid rgba(165,165,165,1.0);
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 1.0);
@@ -105,6 +113,12 @@ body {
 .logo {
   padding-top: 6px;
   padding-left: 0px;
+  float: left;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1.0));
+}
+.cr {
+  padding-top: 15px;
+  padding-bottom: 8px;
   float: left;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1.0));
 }
@@ -135,6 +149,9 @@ body {
 .box2:last-child {
   border: 0;
   padding-bottom: 8px;
+}
+.about:last-child {
+  padding-bottom: 36px;
 }
 .section {
   border-bottom: 1px solid rgba(165,165,165,1.0);
@@ -170,7 +187,7 @@ label {
   margin-bottom: 2px;
 }
 .info:hover {
-  color: rgba(143, 143, 255, 1.0);
+  color: rgba(250, 30, 78, 1.0);
 }
 .info2:hover {
   color: rgba(250, 30, 78, 1.0);
@@ -204,10 +221,22 @@ label {
   background: rgba(195, 255, 112, 1.0);
   box-shadow: inset -1px -1px 1px rgba(255, 255, 255, .6);
 }
+.usedcpu:hover {
+  height: 10px;
+  width: 100%;
+  background: rgba(255, 112, 112, 1.0);
+  box-shadow: inset -1px -1px 1px rgba(255, 255, 255, .6);
+}
 .usedmem {
   height: 10px;
   width: 100%;
   background: rgba(14, 211, 223, 1.0);
+  box-shadow: inset -1px -1px 1px rgba(255, 255, 255, .6);
+}
+.usedmem:hover {
+  height: 10px;
+  width: 100%;
+  background: rgba(255, 112, 112, 1.0);
   box-shadow: inset -1px -1px 1px rgba(255, 255, 255, .6);
 }
 .usedbat {
