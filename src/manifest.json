@@ -1,14 +1,13 @@
 // Copyright (c) 2018 François Beaufort and (c) 2022 Alex313031. //
 
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "COG - System Info Viewer",
   "short_name": "COG",
   "author": "Alex313031",
   "description": "__MSG_appDescription__",
-  "homepage_url": "https://github.com/Alex313031/cog-chromium/",
-  "version": "0.15.5",
-  "version_name": "0.15.5",
+  "version": "0.15.6",
+  "version_name": "0.15.6",
   "offline_enabled": true,
   "minimum_chrome_version": "88",
   "default_locale": "en",
@@ -41,7 +40,6 @@
     "system.network",
     "system.storage",
     "clipboardRead",
-    "clipboardWrite",
-    "notifications"
+    "clipboardWrite"
   ]
 }
