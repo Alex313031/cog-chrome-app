@@ -6,6 +6,7 @@
   "short_name": "COG",
   "author": "Alex313031",
   "description": "__MSG_appDescription__",
+  "homepage_url": "https://github.com/Alex313031/cog-chromium/",
   "version": "0.15.5",
   "version_name": "0.15.5",
   "offline_enabled": true,
