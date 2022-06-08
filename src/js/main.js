@@ -67,7 +67,7 @@ function initInfo() {
   language.textContent = navigator.language;
   
   var copyright = document.querySelector('#copyright-list');
-  copyright.textContent = "Copyright (c) 2022 Alex313031 *Chancie Wancie Edition*";
+  copyright.textContent = "Copyright (c) 2022 Alex313031";
 
   var acceptLanguages = document.querySelector('#accept-languages');
   chrome.i18n.getAcceptLanguages(function(languages) {
@@ -146,7 +146,7 @@ function updateStorage() {
     externalStorageUnits.innerHTML = '';
     for (var i = 0; i < storageInfo.length; i++) {
       var storageUnitHtml = '<div>' + storageInfo[i].name +
-          (storageInfo[i].capacity ? ' - ' + formatBytes(storageInfo[i].capacity) : '') + '</div>';
+          (storageInfo[i].capacity ? ' Total Size: ' + formatBytes(storageInfo[i].capacity) : '') + '</div>';
       if (storageInfo[i].type === 'removable') {
         externalStorageUnits.innerHTML += storageUnitHtml;
       } else {
