@@ -6,10 +6,10 @@
   "short_name": "__MSG_appShortName__",
   "author": "Alex313031",
   "description": "__MSG_appDescription__",
-  "version": "0.15.7",
-  "version_name": "0.15.7",
+  "version": "0.15.8",
+  "version_name": "0.15.8",
   "offline_enabled": true,
-  "minimum_chrome_version": "88",
+  "minimum_chrome_version": "68",
   "default_locale": "en",
   "icons": {
     "16": "icons/icon_16.png",
@@ -38,8 +38,6 @@
     "system.display",
     "system.memory",
     "system.network",
-    "system.storage",
-    "clipboardRead",
-    "clipboardWrite"
+    "system.storage"
   ]
 }
